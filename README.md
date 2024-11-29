@@ -24,8 +24,8 @@ Amazon Prime is another one of the most popular media and video streaming platfo
 
 **Tools & Dataset:**  
 
-•	Microsoft Excel - For cleaning the data
-• Power BI -  For visualization.
+•  Microsoft Excel - For cleaning the data
+•  Power BI -  For visualization.
 
 
 
@@ -33,7 +33,7 @@ Amazon Prime is another one of the most popular media and video streaming platfo
 
 The analysis process involved several key steps to explore the dataset in depth:
 
-**Data Cleaning and Preparation:**
+**Data Cleaning in Excel:**
    
 The dataset required significant data cleaning to ensure consistency . I used “Sort and Filter” on Excel to find out missing data.  A large portion of the data had missing or incomplete values across multiple columns. Specifically, 8,996 out of 9,668 entries were missing **country** data, and 1,233 entries had missing or blank **cast** information, with 35 entries containing "1" and 1 entry containing "1,2,3." . For **director** column, 2,082 entries were missing, with 17 entries containing "1," 1 entry listed as "20th century fox," 2 entries as "20th_century_fox," and 1 entry as "9 Story Entertainment." Finally, 337 entries had missing **ratings**. 
 To ensure consistency, all of these missing or erroneous values were replaced with the placeholder "Unknown" or "Unrated," making the dataset more reliable and ready for further analysis.
@@ -43,25 +43,40 @@ To ensure consistency, all of these missing or erroneous values were replaced wi
 I saved the cleaned dataset for further analysis.
 
 # Data Visualization:
-   
-I imported the cleaned dataset into Power BI. 	I made sure that the data was structured correctly by converting categorical fields like type, rating, and country into dimensions that could be grouped.
 
-<img width="805" alt="image" src="https://github.com/user-attachments/assets/2ab636b8-fa6d-4ad7-adba-416246e688fd">
+**Data Transformation and Preprocessing:**
 
+•  I imported the cleaned dataset into Power BI. 	I made sure that the data was structured correctly by converting categorical fields like type, rating, and country into dimensions that could be grouped.
+
+![image](https://github.com/user-attachments/assets/f7fb6b93-fb5a-4eaa-b196-884620fb6665)
+
+•  I created a  new column, "Processed Duration" to handle both movies with numeric durations (in minutes) and shows with textual duration data (e.g- "1 Season"). 
+
+![image](https://github.com/user-attachments/assets/04a076b8-6c05-456e-b321-82682a4ed074)
+
+•  I also added a calculated column, "Duration Group" to categorize movies into groups based on their duration. I transformed the data type of the **Duration Group** column to numerical, which keeps the rows for TV shows as blank.
+
+
+![image](https://github.com/user-attachments/assets/94a40c63-20a5-4c51-ba8c-e352c57cdf19)
 
 
 I created a daashboard with following visualizations in Power BI to answer the core business questions:
 
 •	Pie Chart to display the distribution of movies and TV shows types.
 
-•	Heatmaps to highlight the relationship between shows/movies in different countries.
+•      Stacked bar chart to identify the top 5 movie ratings and analyze their relationship with duration.
+
+•	Heatmaps to highlight the relationship between total shows including movie TV shows in different countries.
 
 •	Area Chart to show trends in movie and shows releases over the years.
 
-•	Bar charts  to list top genre and rating by total shows.
+•	Bar charts  to list top genre.
 
 
-![image](https://github.com/user-attachments/assets/d8a7a114-3a17-4dfc-9339-cf3e1faae757)
+
+
+![image](https://github.com/user-attachments/assets/6acbe479-0f35-48db-8fbb-7427211fca0d)
+
 
 
 
@@ -69,11 +84,11 @@ I created a daashboard with following visualizations in Power BI to answer the c
 
 The analysis revealed the following key insights:
 
-•	Popular Genres: Certain genres like Action, Comedy, and Drama dominate Amazon's movie catalog, while genres like Documentary and Horror appear less frequently.
+•	Popular Genres: Certain genres like Comedy, and Drama dominate Amazon's movie catalog, while genres like Documentary and Horror appear less frequently.
 	
-•	Rating Trends: Higher ratings tend to be associated with movies that have a longer duration, though some shorter films with strong storylines also received high ratings.
+•	Rating Trends: Movies with higher ratings (13+, 16+, 18+) are generally associated with shorter durations, typically less than 90 minutes. In contrast, R-rated movies tend to have a medium duration, ranging from 90 to 120 minutes.
 	
-•	Country Insights: The U.S. and India are leading in the number of movies available on Amazon, while other regions like Europe or Canada have relatively fewer offerings.
+•	Country Insights: The U.S. and India are leading in the number of total shows available on Amazon, while other regions like Europe or Canada have relatively fewer offerings.
 	
 •	Genre Influence: Genres like Comedy and Drama, tend to receive higher ratings and more viewership.
    
@@ -86,6 +101,8 @@ Based on the analysis, the following recommendations can be made:
 
 •	Regional content expansion: With the U.S. and India dominating the catalog, Amazon could consider expanding its offerings in underrepresented regions like Europe or Canada.
 
+•       Diversify Movie Durations Based on Rating Demographics: Tailor content based on the target audience’s rating preferences. For younger viewers, prioritize short films, while for mature audiences, medium-length movies may be more appealing.
+
 •	Capitalize on popular genres for better engagement: Comedy and Drama genres receive higher ratings and viewership. Amazon could capitalize on this trend by investing in more original content within these genres
 
 
@@ -95,6 +112,5 @@ I faced several challenges during the analysis:
 
 1.	Data Quality: Missing or incomplete data for certain columns required extra time for cleaning and handling
    
-2.	Data Granularity: The dataset lacked certain granular details (viewing history) that would have provided deeper insights into customer preferences.
-
+2.	Handling Mixed Data Types (Duration): The dataset contained mixed data types for movie duration. Converting these values into a unified format while preserving the distinction between movies and shows seemed complex.
 
