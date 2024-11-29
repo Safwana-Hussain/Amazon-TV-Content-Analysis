@@ -75,7 +75,9 @@ I created a daashboard with following visualizations in Power BI to answer the c
 
 
 
-![image](https://github.com/user-attachments/assets/6acbe479-0f35-48db-8fbb-7427211fca0d)
+
+![image](https://github.com/user-attachments/assets/fe15ac0b-a00f-4145-bf81-409d36de173d)
+
 
 
 
