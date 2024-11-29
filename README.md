@@ -87,7 +87,8 @@ Based on the analysis, the following recommendations can be made:
 •	Capitalize on popular genres for better engagement: Comedy and Drama genres receive higher ratings and viewership. Amazon could capitalize on this trend by investing in more original content within these genres
 
 
-Challenges Faced:
+**Challenges Faced:**
+
 Several challenges arose during the analysis:
 1.	Data Quality: Missing or incomplete data for certain columns required extra time for cleaning and handling.
 2.	Data Granularity: The dataset lacked certain granular details (viewing history) that would have provided deeper insights into customer preferences.
