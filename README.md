@@ -89,8 +89,10 @@ Based on the analysis, the following recommendations can be made:
 
 **Challenges Faced:**
 
-Several challenges arose during the analysis:
-1.	Data Quality: Missing or incomplete data for certain columns required extra time for cleaning and handling.
+I faced several challenges during the analysis:
+
+1.	Data Quality: Missing or incomplete data for certain columns required extra time for cleaning and handling
+   
 2.	Data Granularity: The dataset lacked certain granular details (viewing history) that would have provided deeper insights into customer preferences.
 
 
