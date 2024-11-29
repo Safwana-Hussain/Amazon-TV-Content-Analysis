@@ -46,6 +46,9 @@ I saved the cleaned dataset for further analysis.
    
 I imported the cleaned dataset into Power BI. 	I made sure that the data was structured correctly by converting categorical fields like type, rating, and country into dimensions that could be grouped.
 
+![image](https://github.com/user-attachments/assets/3850f3a6-0a9f-4712-846e-76f80c5df2d5)
+
+
 I created a daashboard with following visualizations in Power BI to answer the core business questions:
 
 •	Pie Chart to display the distribution of movies and TV shows types.
