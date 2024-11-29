@@ -79,7 +79,9 @@ I created a daashboard with following visualizations in Power BI to answer the c
 ![image](https://github.com/user-attachments/assets/fe15ac0b-a00f-4145-bf81-409d36de173d)
 
 
+**Visual Customization for Enhanced Clarity and Appeal:**
 
+ I customized the background color of the visualizations to ensure the visuals stand out and align with the overall theme of the report. Cards were used for key metrics ( total movies, Total rating) to help stakeholders to quickly grasp the overall performance. I also added data labels for clarity, and included legends to differentiate categories. Axis labels were adjusted and I added titles to provide clarity and context. A consistent color palette was used for better readability and visual appeal.
 
 
 # Key Insight:
