@@ -58,9 +58,11 @@ I created a daashboard with following visualizations in Power BI to answer the c
 
 •	Area Chart to show trends in movie and shows releases over the years.
 
-•	Bar charts  to list top genre and rating by total shows
+•	Bar charts  to list top genre and rating by total shows.
 
-![image](https://github.com/user-attachments/assets/d4a70cd7-f73c-456c-b472-0fee6ae06e45)
+
+![image](https://github.com/user-attachments/assets/d8a7a114-3a17-4dfc-9339-cf3e1faae757)
+
 
 
 # Key Insight:
