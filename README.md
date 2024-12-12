@@ -25,6 +25,7 @@ Amazon Prime is another one of the most popular media and video streaming platfo
 **Tools & Dataset:**  
 
 •  Microsoft Excel - For cleaning the data
+
 •  Power BI -  For visualization.
 
 
