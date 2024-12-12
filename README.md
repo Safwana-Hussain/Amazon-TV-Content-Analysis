@@ -116,6 +116,6 @@ Based on the analysis, the following recommendations can be made:
 I faced several challenges during the analysis:
 
 1. Data Quality: Missing or incomplete data for certain columns required extra time for cleaning and handling
-   
+
 2. Handling Mixed Data Types (Duration): The dataset contained mixed data types for movie duration. Converting these values into a unified format while preserving the distinction between movies and shows seemed complex.
 
